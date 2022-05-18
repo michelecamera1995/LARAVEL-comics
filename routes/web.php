@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-include 'public/routes/comics.php';
+
 
 Route::get('/', function () {
-    return view('home',);
+    $data = include  '../routes/comics.php';
+    return view('home', ['comics' => $data]);
 });
