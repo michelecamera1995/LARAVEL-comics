@@ -24,14 +24,14 @@
         <div class="currentLabel">
             <h2>CURRENT SERIES</h2>
         </div>
+        @foreach($comics as $comic)
         <div class="card">
-            @foreach($comics as $comic)
-            <img src="" />
-            <h2>{{ $comic->title}}</h2>
-            <p>{{ $comic->price }}</p>
-            <p>{{ $comic->type}}</p>
-            @endforeach
+            <img src="{{ $comic['thumb']}}" />
+            <h2>{{ $comic['title']}}</h2>
+            <p>{{ $comic['price'] }}</p>
+            <p>{{ $comic['type']}}</p>
         </div>
+        @endforeach
     </div>
 
     <div id="Footer">
