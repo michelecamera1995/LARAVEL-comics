@@ -1,0 +1,147 @@
+#header {
+  background-color: white;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+.header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 55px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 20px;
+}
+
+#Main {
+  background-color: black;
+  color: white;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+}
+
+.currentLabel {
+  position: absolute;
+  top: -3%;
+  left: 5%;
+  font-size: 1.3rem;
+  z-index: 20;
+  background-color: rgb(48, 131, 255);
+  padding: 15px 15px;
+}
+
+#jumbo {
+  background-image: url();
+  height: 350px;
+  z-index: 5;
+}
+
+#TopFooter {
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 131, 255);
+  font-size: 0.8rem;
+  color: white;
+}
+
+.smallcard {
+  display: flex;
+  align-items: center;
+}
+
+.imgcard {
+  height: 40px;
+  margin: 15%;
+}
+
+#MidFooter {
+  font-weight: bold;
+  background-image: url();
+  display: flex;
+  color: lightgray;
+}
+
+#MidFooter #sitemap .col {
+  color: white;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#MidFooter #sitemap .col .m-tp {
+  margin-top: 15px;
+}
+
+#MidFooter #sitemap .col .collist {
+  margin-left: 15px;
+  display: flex;
+}
+
+#MidFooter #sitemap .col .collist ul {
+  margin-right: 15px;
+}
+
+#MidFooter #dclogo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#MidFooter #dclogo img {
+  width: 70%;
+  height: 100%;
+}
+
+#BottomFooter {
+  display: flex;
+  background-color: #303030;
+  height: 111px;
+}
+
+#BottomFooter #bottombar .button {
+  margin-top: 35px;
+  border: 2px solid blue;
+  padding: 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+}
+
+#BottomFooter #bottombar .socialbottom {
+  margin-top: 35px;
+  display: flex;
+  text-align: center;
+}
+
+#BottomFooter #bottombar .socialbottom .follow {
+  color: blue;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+#BottomFooter #bottombar .socialbottom a {
+  margin-left: 20px;
+}
+
