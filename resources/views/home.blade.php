@@ -32,9 +32,9 @@
             <p>{{ $comic['type']}}</p>
         </div>
         @endforeach
-    </div>
+</div>
 
-    <div id="Footer">
+<div id="Footer">
         <div class="Footer">
             <!--TOP FOOTER-->
 
@@ -144,6 +144,6 @@
                 </div>
             </div>
         </div>
-    </div>
+</div>
 
     @dump($comics)
