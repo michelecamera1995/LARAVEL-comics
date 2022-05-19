@@ -1,20 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('base-layout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
-    <title>DC Comics</title>
-</head>
+@section('content')
 
-<body>
+<div id="Main">
+    <div id="jumbo"></div>
+    <div class="Main container">
+        <div class="currentLabel">
+            <h2>CURRENT SERIES</h2>
+        </div>
+        @foreach($comics as $comic)
+        <div class="card">
+            <img src="{{ $comic['thumb']}}" />
+            <h2>{{ $comic['title']}}</h2>
+            <p>{{ $comic['price'] }}</p>
+            <p>{{ $comic['type']}}</p>
+        </div>
+        @endforeach
+    </div>
 
-    @include('partials/header')
-    @include('partials/main')
-    @include('partials/footer')
-
-</body>
-
-</html>
+    @endsection

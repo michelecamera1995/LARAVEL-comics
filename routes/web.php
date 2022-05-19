@@ -19,3 +19,8 @@ Route::get('/', function () {
     $data = include  '../config/comics.php';
     return view('home', ['comics' => $data]);
 });
+
+Route::get('/details', function () {
+    $data = include  '../config/comics.php';
+    return view('details', ['comics' => $data[0]]);
+});
