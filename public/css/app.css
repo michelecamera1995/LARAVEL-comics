@@ -117,7 +117,7 @@ nav ul li {
 }
 
 #jumbo {
-  background-image: url("/public/assets/jumbotron.jpg");
+  background-image: url("/assets/jumbotron.jpg");
   height: 350px;
   z-index: 5;
 }
@@ -144,7 +144,7 @@ nav ul li {
 
 #MidFooter {
   font-weight: bold;
-  background-image: url("/public/assets/footer-bg.jpg");
+  background-image: url("/assets/footer-bg.jpg");
   display: flex;
   color: lightgray;
 }
