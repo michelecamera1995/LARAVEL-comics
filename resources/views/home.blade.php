@@ -10,7 +10,7 @@
         </div>
         @foreach($comics as $comic)
         <div class="card">
-            <img src="{{ $comic['thumb']}}" />
+            <a href="/details"><img src="{{ $comic['thumb']}}" /></a>
             <h2>{{ $comic['title']}}</h2>
             <p>{{ $comic['price'] }}</p>
             <p>{{ $comic['type']}}</p>

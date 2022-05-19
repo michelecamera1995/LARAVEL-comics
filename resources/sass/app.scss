@@ -21,9 +21,18 @@
     color: lightgray;
 }
 
+#header-links {
+    height: 100%;
+
+    .header-link:hover {
+        border-bottom: 2px solid blue;
+    }
+}
+
+
 * a:focus {
     text-decoration: none;
-    color: lightgray;
+    color: lightslategray
 }
 
 * a:active {
