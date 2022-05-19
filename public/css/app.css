@@ -122,6 +122,40 @@ nav ul li {
   z-index: 5;
 }
 
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#details #details-img {
+  margin-top: 100px;
+  height: 400px;
+}
+
+#details #details-title {
+  padding-top: 35px;
+  font-size: 1.8rem;
+}
+
+#details #details-series {
+  padding-top: 15px;
+  font-size: 1.2rem;
+}
+
+#details #details-description {
+  width: 60%;
+  padding-top: 15px;
+  font-size: 1.2rem;
+}
+
+#details #details-price {
+  padding-top: 15px;
+  margin-bottom: 100px;
+  font-size: 1.3rem;
+}
+
 #TopFooter {
   z-index: 100;
   display: flex;
